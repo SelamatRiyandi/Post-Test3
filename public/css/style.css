@@ -1,0 +1,122 @@
+body {
+    /* background-color: rgb(88, 88, 88); */
+    background-color: rgb(110, 130, 160);
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-image: url(/assets/jumbotron.jpg);
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+	color: white;
+}
+
+.jumbotron .display-4 {
+	margin-top: 30px;
+}
+
+.jumbotron p {
+	font-size: 23px;
+}
+
+.jumbotron hr {
+	border-color: white;
+	width: 400px;
+	border-width: 3px;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+/*Akhir Jumbotron*/
+
+/* Konten */
+.card {
+    background-color: #86c0ff;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.introduction {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.ctable th, .ctable td {
+    padding: 12px 15px;
+
+}
+
+.ctable tbody tr{
+    background-color: #ffffff;
+}
+.ctable tbody tr:last-of-type{
+    border-bottom: 2px solid #86c0ff ;
+}
+.ctable tbody tr {
+    border-bottom: 1px solid #86c0ff;
+}
+.ctable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0,9em;
+    min-width: 80%;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+    border-radius: 5px 5px 5px 5px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.ctable thead tr{
+    background-color: #86c0ff;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.container-text {
+    padding-top: 30px;
+    margin: auto;
+    width: 80%;
+    color: white;
+}
+
+.container-comment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card-comment {
+    margin-top: 50px;
+    padding: 50px;
+    width: 100vw;
+    /* align-items: center; */
+    width: 80%;
+    background-color: #ffffff;
+    justify-content: center;
+    border-radius: 25px;
+}
+/* Akhir konten */
